@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import greet from './cli.js';
+import greet from '../src/cli.js';
 
 function getRandomInt() {
   return Math.floor(Math.random() * 100);
