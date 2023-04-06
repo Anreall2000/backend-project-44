@@ -1,0 +1,17 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "hexlet task",
+  "type": "module",
+  "scripts": {
+    "game": "node bin/brain-games.js"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "author": "anreall",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
